@@ -486,6 +486,14 @@ progress {
 [hidden] {
   display: none !important;
 }
+.logo-image{
+  width: 46px;
+  height: 43px;
+  right: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -1px;
+}
 
 .lead {
   font-size: 1.25rem;
@@ -494,21 +502,21 @@ progress {
 
 .float{
   position:fixed;
-  width:60px;
-  height:60px;
+  width:245px;
+  height:80px;
   bottom:40px;
   right:40px;
   background-color:#25d366;
   color:#FFF;
-  border-radius:50px;
+  border-radius:60px;
   text-align:center;
-  font-size:30px;
+  font-size:25px;
   box-shadow: 2px 2px 3px #999;
   z-index:100;
 }
 
 .my-float{
-  margin-top:16px;
+  margin-top:20px;
 }
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
